@@ -1,21 +1,25 @@
 {
-  "name": "npm_sample",
-  "version": "1.0.0",
-  "description": "Sample Code for npm package article",
-  "main": "index.js",
-  "scripts": {
-    "start": "./node_modules/.bin/babel src --out-dir dist && node dist/index.js"
-  },
-  "keywords": [
-    "Progate"
-  ],
-  "author": "Progate, Inc.",
-  "license": "ISC",
+  "name": "npm-sample",
+  "version": "0.0.0",
+  "private": true,
+  "author": "kenpage <ken.page@staff.gu3.co.jp>",
+  "description": "A simple helpful robot for your Company",
   "dependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.1.6",
-    "chalk": "^2.4.1",
-    "readline-sync": "^1.4.9"
+    "hubot": "^3.1.1",
+    "hubot-diagnostics": "^1.0.0",
+    "hubot-google-images": "^0.2.7",
+    "hubot-google-translate": "^0.2.1",
+    "hubot-help": "^1.0.1",
+    "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-maps": "0.0.3",
+    "hubot-pugme": "^0.1.1",
+    "hubot-redis-brain": "^1.0.0",
+    "hubot-rules": "^1.0.0",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.5.5"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
